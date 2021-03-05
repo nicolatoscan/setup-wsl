@@ -5,6 +5,7 @@
 
 # apt
 echo "apt install ..."
+apt update -y
 apt upgrade -y
 apt autoremove -y
 apt install build-essential mc jq nodejs curl wget git nano mc htop sudo bash zsh python3 python3-pip -y

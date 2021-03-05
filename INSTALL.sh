@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# launch command
+# sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/nicolatoscan/setup-wsl/master/INSTALL.sh)"
+
 # apt
 echo "apt install ..."
 apt upgrade -y

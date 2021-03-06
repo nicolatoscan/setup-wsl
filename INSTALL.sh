@@ -12,7 +12,7 @@ sudo apt install build-essential mc jq curl wget git nano mc htop sudo bash zsh 
 
 # oh-my-zsh
 echo "Installing oh-my-zsh ..."
-yes | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "Setting up oh-my-zsh ..."
 # theme

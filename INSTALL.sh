@@ -8,7 +8,7 @@ echo "apt install ..."
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
-sudo apt install build-essential mc jq nodejs curl wget git nano mc htop sudo bash zsh python3 python3-pip -y
+sudo apt install build-essential mc jq curl wget git nano mc htop sudo bash zsh python3 python3-pip -y
 
 # oh-my-zsh
 echo "Installing oh-my-zsh ..."

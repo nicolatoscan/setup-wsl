@@ -31,7 +31,7 @@ echo "alias cdw=\"cd /mnt/c/Users/toscan/\"" >> ~/.zshrc
 
 # node
 echo "Installing node stuff ..."
-curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt install nodejs -y
 sudo npm install typescript -g
 

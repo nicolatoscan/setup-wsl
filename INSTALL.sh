@@ -29,16 +29,6 @@ echo "[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh" >> ~/.zshrc
 echo "alias py=\"python3\"" >> ~/.zshrc
 echo "alias cdw=\"cd /mnt/c/Users/toscan/\"" >> ~/.zshrc
 
-# node
-echo "Installing node stuff ..."
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt install nodejs -y
-sudo npm install typescript -g
-
-# python
-echo "Installing python stuff ..."
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -
-
 
 echo "apt upgrade di sicurezza ..."
 sudo apt update

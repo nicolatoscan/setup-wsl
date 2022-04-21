@@ -29,6 +29,11 @@ echo "[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh" >> ~/.zshrc
 echo "alias py=\"python3\"" >> ~/.zshrc
 echo "alias cdw=\"cd /mnt/c/Users/toscan/\"" >> ~/.zshrc
 
+# brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $HOME/.bash_profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+brew install gh
 
 echo "apt upgrade di sicurezza ..."
 sudo apt update

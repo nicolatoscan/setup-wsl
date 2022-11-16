@@ -26,7 +26,6 @@ wget https://raw.githubusercontent.com/nicolatoscan/setup-wsl/master/.p10k.zsh -
 echo "# To customize prompt, run \`p10k configure\` or edit ~/.p10k.zsh." >> ~/.zshrc
 echo "[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh" >> ~/.zshrc
 # alias
-echo "alias py=\"python3\"" >> ~/.zshrc
 echo "alias cdw=\"cd /mnt/c/Users/toscan/\"" >> ~/.zshrc
 
 echo "apt upgrade di sicurezza ..."

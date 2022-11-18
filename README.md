@@ -1,6 +1,6 @@
 # Setup WSL
 
-Setup my WSL configuration in one command
+Setup WSL with Ubuntu in one command
 
 Install with:
 ```bash
